@@ -15,6 +15,9 @@ django-admin startproject project .
 # Rodando django-admin
 python manage.py runserver
 
+# criando app
+python manage.py startapp contact
+
 # Configure o .gitignore
 # Configurar o git
 git config --global user.name 'Seu nome'
@@ -24,3 +27,4 @@ git init
 git add .
 git commit -m 'Mensagem'
 git remote add origin URL_DO_GIT
+
