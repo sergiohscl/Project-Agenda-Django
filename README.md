@@ -15,11 +15,11 @@ django-admin startproject project .
 # Rodando django-admin
 python manage.py runserver
 
+# Configure o .gitignore
 # Configurar o git
 git config --global user.name 'Seu nome'
 git config --global user.email 'seu_email@gmail.com'
 git config --global init.defaultBranch main
-# Configure o .gitignore
 git init
 git add .
 git commit -m 'Mensagem'
