@@ -6,7 +6,7 @@ python3 -m venv venv
 
 deactivate
 
-# Instalando django no ambinete virtual
+# Instalando django no ambiente virtual
 pip install django
 
 # Iniciando project django
@@ -14,6 +14,14 @@ django-admin startproject project .
 
 # Rodando django-admin
 python manage.py runserver
+
+# Migrando a base de dados do Django
+python manage.py makemigrations
+python manage.py migrate
+
+# Criando e modificando a senha de um super usuário
+python manage.py createsuperuser
+python manage.py changepassword USERNAME
 
 # criando app
 python manage.py startapp contact
