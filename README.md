@@ -29,6 +29,9 @@ python manage.py startapp contact
 # arquivos estáticos
 python manage.py collectstatic
 
+# executando o script de dados fakes
+python utils/create_contacts.py
+
 # Configure o .gitignore
 # Configurar o git
 git config --global user.name 'Seu nome'
